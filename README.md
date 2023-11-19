@@ -1,7 +1,8 @@
-# personas-soap-service
+
+# Personas SOAP Service
 
 Java Build Path
-    Libraries
+Libraries
         Modulepath
             JRE System Library [jdk-11.0.15]
         Classpath
@@ -28,3 +29,6 @@ delete  <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
 
 SOAP UI Client
 crear projecto soap a partir de los archivos personassei.wsdl y personassei_schema1.xsd
+
+wsdl: http://localhost:8080/personas-soap-service/services/PersonasServiceImplPort?wsdl
+xsd: http://localhost:8080/personas-soap-service/services/PersonasServiceImplPort?xsd=personassei_schema1.xsd
