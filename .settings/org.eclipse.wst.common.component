@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="poc-cxf-java2wsdl">
+        
+    <wb-module deploy-name="personas-soap-service">
+                
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="poc-cxf-java2wsdl"/>
-        <property name="java-output-path" value="/poc-cxf-java2wsdl/build/classes"/>
+                
+        <property name="java-output-path" value="/personas-soap-service/build/classes"/>
+        <property name="context-root" value="personas-soap-service"/>
+            
     </wb-module>
+    
 </project-modules>

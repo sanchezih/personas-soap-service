@@ -1,4 +1,4 @@
-# poc-soap-cxf
+# personas-soap-service
 
 Java Build Path
     Libraries
