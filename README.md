@@ -24,3 +24,7 @@ Finish
 
 cxf-beans.xml
 delete  <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+
+
+SOAP UI Client
+crear projecto soap a partir de los archivos personassei.wsdl y personassei_schema1.xsd
