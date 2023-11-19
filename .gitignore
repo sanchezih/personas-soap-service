@@ -1,0 +1,3 @@
+*.class
+/src/main/java/com/github/sanchezih/cxf/src/jaxws/*
+/src/main/webapp/wsdl*

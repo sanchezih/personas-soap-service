@@ -2,6 +2,8 @@ package com.github.sanchezih.cxf.src;
 
 import java.util.List;
 
+import javax.jws.WebService;
+
 /**
  * SEI (Service Endpoint Interface)
  * 
@@ -10,17 +12,19 @@ import java.util.List;
  * @author ihsanch
  *
  */
+@WebService(name = "PersonasSEI", targetNamespace = "http://src.cxf.sanchezih.github.com/")
 public interface PersonasSEI {
 
 	/**
-	 * Agrega una persona al listado
+	 * Agrega una persona al conjunto
 	 * 
 	 * @param persona
 	 */
 	public void addPersona(Persona persona);
 
 	/**
-	 * Devuelve una persona y en caso de no encontrarla lanza una excepcion
+	 * Retorna una persona del conjunto. Si la persona no existe se lanza una
+	 * excepcion
 	 * 
 	 * @param nombre
 	 * @return
@@ -29,14 +33,15 @@ public interface PersonasSEI {
 	public Persona getPersona(String nombre) throws Exception;
 
 	/**
-	 * Obtiene el listado de personas almacenado
+	 * Retorna el conjunto de personas
 	 * 
 	 * @return
 	 */
 	public List<Persona> getPersonas();
 
 	/**
-	 * Elimina una persona del listado y si no existe lanza una excepcion
+	 * Elimina una persona del conjunto. Si la persona no existe se lanza una
+	 * excepcion
 	 * 
 	 * @param nombre
 	 * @throws Exception
